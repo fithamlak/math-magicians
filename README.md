@@ -101,6 +101,17 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
+To chcck eslint error
+
+```sh
+  npx eslint "**/*.{js,jsx}"
+```
+
+To check stylelint
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 ### Deployment
 
@@ -157,23 +168,7 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
