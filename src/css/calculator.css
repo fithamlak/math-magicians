@@ -1,11 +1,12 @@
 table {
     width: 30%;
     margin-left: 100px;
+    margin-top: -5px;
 }
 
 td {
     height: 70px;
-    border: solid 1px black;
+    border: solid 1px rgb(236, 228, 228);
     border-bottom: none;
     border-right: none;
     text-align: center;
@@ -14,8 +15,9 @@ td {
 .oprator {
   background-color: rgb(255, 153, 0);
   border-bottom: solid 1px white;
+  border-right: solid 1px rgb(236, 228, 228);
 }
 
 .bottom {
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px rgb(236, 228, 228);
 }
