@@ -11,7 +11,7 @@ function Calculator() {
             <td>AC</td>
             <td>+/-</td>
             <td>%</td>
-            <td className="oprator">/</td>
+            <td className="oprator">÷</td>
           </tr>
           <tr>
             <td>7</td>
