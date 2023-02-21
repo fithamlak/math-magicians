@@ -47,6 +47,9 @@
 > Describe between 1-3 key features of the application.
 
 - **[Set up project using create-react-app]**
+- [ ] **[Using Components to build the website]**
+- [ ] **[Implement the design only (JSX and CSS)]**
+- [ ] **[Use child component]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +142,9 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Using Components to build the website]**
+- [ ] **[Functional Implementation For The calculator]**
+- [ ] **[Apply state and props concept]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
