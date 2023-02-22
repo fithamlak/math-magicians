@@ -50,6 +50,9 @@
 - [ ] **[Using Components to build the website]**
 - [ ] **[Implement the design only (JSX and CSS)]**
 - [ ] **[Use child component]**
+- [ ] **[Implement logic and handle events for the calculator functionality]**
+- [ ] **[Apply state and props concept]**
+- [ ] **[Apply useState reacthook]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
