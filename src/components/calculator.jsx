@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../css/calculator.css';
-import Result from './Result';
+// import Result from './Result';
 import Button from './button';
 import calculate from '../logic/calculate';
 
@@ -11,11 +11,20 @@ function Calculator() {
     setCalculatorObj(calculate(calculatorObj, name));
   }
   let result;
+  if (calculatorObj.next) {
+    result = calculatorObj.next;
+  } else if (calculatorObj.total) {
+    result = calculatorObj.total;
+  } else {
+    result = 0;
+  }
   return (
     <div>
-      <Result result={result} />
       <table>
         <tbody>
+          <tr>
+            <td colSpan={4} className="result">{result}</td>
+          </tr>
           <tr>
             <td><Button onClick={(e) => handleClick(e)} name="AC" /></td>
             <td><Button onClick={(e) => handleClick(e)} name="+/-" /></td>

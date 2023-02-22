@@ -21,3 +21,9 @@ td {
 .bottom {
   border-bottom: solid 1px rgb(236, 228, 228);
 }
+
+.result {
+  background-color: gray;
+  text-align: right;
+  color: white;
+}
