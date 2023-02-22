@@ -2,9 +2,11 @@ table {
   width: 30%;
   margin-left: 100px;
   margin-top: -5px;
+  table-layout: fixed;
 }
 
 td {
+  width: 25%;
   height: 70px;
   border: solid 1px rgb(236, 228, 228);
   border-bottom: none;
@@ -14,16 +16,26 @@ td {
 
 .oprator {
   background-color: rgb(255, 153, 0);
-  border-bottom: solid 1px white;
-  border-right: solid 1px rgb(236, 228, 228);
+  border: none;
+  width: 100%;
+  height: 100%;
 }
 
 .bottom {
-  border-bottom: solid 1px rgb(236, 228, 228);
+  border: none;
+  width: 100%;
+  height: 100%;
 }
 
 .result {
   background-color: gray;
   text-align: right;
   color: white;
+}
+
+.normal {
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
 }

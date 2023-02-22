@@ -26,33 +26,33 @@ function Calculator() {
             <td colSpan={4} className="result">{result}</td>
           </tr>
           <tr>
-            <td><Button onClick={(e) => handleClick(e)} name="AC" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="+/-" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="%" /></td>
-            <td className="oprator"><Button onClick={(e) => handleClick(e)} name="÷" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="AC" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="+/-" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="%" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="÷" className="oprator" /></td>
           </tr>
           <tr>
-            <td><Button onClick={(e) => handleClick(e)} name="7" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="8" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="9" /></td>
-            <td className="oprator"><Button onClick={(e) => handleClick(e)} name="x" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="7" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="8" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="9" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="x" className="oprator" /></td>
           </tr>
           <tr>
-            <td><Button onClick={(e) => handleClick(e)} name="4" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="5" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="6" /></td>
-            <td className="oprator"><Button onClick={(e) => handleClick(e)} name="-" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="4" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="5" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="6" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="-" className="oprator" /></td>
           </tr>
           <tr>
-            <td><Button onClick={(e) => handleClick(e)} name="1" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="2" /></td>
-            <td><Button onClick={(e) => handleClick(e)} name="3" /></td>
-            <td className="oprator"><Button onClick={(e) => handleClick(e)} name="+" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="1" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="2" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="3" className="normal" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="+" className="oprator" /></td>
           </tr>
           <tr>
-            <td colSpan={2} className="bottom"><Button onClick={(e) => handleClick(e)} name="0" /></td>
-            <td className="bottom"><Button onClick={(e) => handleClick(e)} name="." /></td>
-            <td className="oprator"><Button onClick={(e) => handleClick(e)} name="=" /></td>
+            <td colSpan={2}><Button onClick={(e) => handleClick(e)} name="0" className="bottom" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="." className="bottom" /></td>
+            <td><Button onClick={(e) => handleClick(e)} name="=" className="oprator" /></td>
           </tr>
         </tbody>
       </table>
