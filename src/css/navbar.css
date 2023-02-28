@@ -1,35 +1,34 @@
 .navbar {
-    top: 0;
-    position: fixed;
-    padding: 0 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    
-  }
+  top: 0;
+  position: fixed;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
 
 .main-header {
-  left:30px;
+  left: 30px;
   position: fixed;
 }
-  
-  .navLinks {
-    right: 5px;
-    position: fixed;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-  }
-  
-  a {
-    color: #333;
-    padding-right: 16px;
-  }
-  
-  .active {
-    color: #9854c0;
-  }
+
+.navLinks {
+  right: 5px;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  color: #333;
+  padding-right: 16px;
+}
+
+.active {
+  color: #9854c0;
+}

@@ -1,17 +1,16 @@
 .calculator {
-    margin-top: 20px;
-    padding: 32px 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+  margin-top: 20px;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 620px) {
+  .calculator {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
   }
-  
-  @media only screen and (min-width: 620px) {
-    .calculator {
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: flex-start;
-    }
-  }
+}

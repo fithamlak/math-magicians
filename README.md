@@ -53,6 +53,9 @@
 - [ ] **[Implement logic and handle events for the calculator functionality]**
 - [ ] **[Apply state and props concept]**
 - [ ] **[Apply useState reacthook]**
+- [ ] **[Use React Router for Routing]**
+- [ ] **[Use Rout for each single page]**
+- [ ] **[Apply Outlet for Child Rout]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,8 +148,7 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Functional Implementation For The calculator]**
-- [ ] **[Apply state and props concept]**
+- [ ] **[Test will Implmented for the app]**
 
 
 
