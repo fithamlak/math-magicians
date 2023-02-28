@@ -1,0 +1,16 @@
+.calculator {
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 82vh;
+  }
+  
+  @media only screen and (min-width: 620px) {
+    .calculator {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+  }

@@ -1,4 +1,5 @@
 import Calculator from '../components/Calculator';
+import '../css/calculatorPage.css';
 
 const CalculatorPage = () => (
   <section className="calculator">
