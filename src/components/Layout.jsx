@@ -2,10 +2,10 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 
 const Layout = () => (
-  <div className="nav">
+  <section className="nav">
     <Navbar />
     <Outlet />
-  </div>
+  </section>
 );
 
 export default Layout;

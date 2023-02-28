@@ -1,8 +1,6 @@
 table {
-  width: 30%;
-  margin-left: 100px;
-  margin-top: -5px;
-  table-layout: fixed;
+  width: 330px;
+  box-shadow: 5px 5px 10px 2px #a19f9f;
 }
 
 td {

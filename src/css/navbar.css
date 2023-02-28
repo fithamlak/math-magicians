@@ -1,12 +1,22 @@
-.nav {
+.navbar {
+    top: 0;
+    position: fixed;
     padding: 0 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 78px;
+    height: 80px;
+    
   }
+
+.main-header {
+  left:30px;
+  position: fixed;
+}
   
   .navLinks {
+    right: 5px;
+    position: fixed;
     padding: 0;
     margin: 0;
     display: flex;
