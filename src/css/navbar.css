@@ -1,0 +1,25 @@
+.nav {
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+  }
+  
+  .navLinks {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  a {
+    color: #333;
+    padding-right: 16px;
+  }
+  
+  .active {
+    color: #9854c0;
+  }
