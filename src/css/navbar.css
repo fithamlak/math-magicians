@@ -24,9 +24,10 @@
   list-style: none;
 }
 
-a {
-  color: #333;
+.link {
+  color: mediumblue;
   padding-right: 16px;
+  text-decoration: none;
 }
 
 .active {
