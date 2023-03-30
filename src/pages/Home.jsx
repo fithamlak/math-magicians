@@ -5,27 +5,12 @@ const Home = () => (
     <h1>Welcome to our page!</h1>
     <p>
       {`
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, 
-      accusantium sed totam et quam repudiandae illum asperiores amet nam nihil,
-      quasi fuga adipisci illo doloribus tempore impedit molestias est, enim laudantium
-      doloremque ratione itaque porro! Excepturi voluptatibus maxime sequi odit in quidem
-      autem delectus, enim quam vel quos illo minus ea quasi, facilis aliquam eius a, rem fuga 
-      odio beatae laborum aspernatur? Odit tempora fugit iusto unde quidem alias! Quam vel 
-      asperiores eveniet quo ducimus optio odit tempore, doloribus modi eius aut expedita 
-      facilis sint quidem consectetur unde earum dolor maiores, voluptatem, similique officiis
-      eum quos nisi? Excepturi, doloribus. Commodi!
+      There is debate over whether mathematical objects such as numbers and points exist naturally or are human creations. The mathematician Benjamin Peirce called mathematics "the science that draws necessary conclusions". Albert Einstein, on the other hand, stated that "as far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality
       `}
     </p>
     <p>
       {`
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium excepturi 
-      ullam optio aut ab assumenda quae cupiditate ad sunt quisquam! Molestiae atque
-      consectetur necessitatibus vero! Perferendis, ducimus animi. Rerum culpa odio
-      fugit impedit animi, eaque voluptatum reprehenderit expedita consequuntur id, 
-      ipsa ab quae! Itaque unde suscipit sequi eius obcaecati! Iusto rerum consequatur 
-      voluptates quod, nihil adipisci est officia, facere distinctio iure cupiditate error 
-      vel tempora sapiente provident veniam. Blanditiis minus eligendi esse dolor ab magni 
-      omnis voluptas eum fugiat? Pariatur, 
+      Through abstraction and logical reasoning mathematics evolved from counting, calculation, measurement, and the systematic study of the shapes and motions of physical objects. Practical mathematics has been a human activity for as far back as written records exist. Rigorous arguments first appeared in Greek mathematics, most notably in Euclid's Elements. Mathematics continued to develop, in fitful bursts, until the Renaissance, when mathematical innovations interacted with new scientific discoveries, leading to an acceleration in research that continues to the present day. 
       `}
     </p>
   </section>
